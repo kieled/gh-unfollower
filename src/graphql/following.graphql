@@ -1,0 +1,13 @@
+query followings($after: String) {
+  viewer {
+    following(first:100, after: $after) {
+      pageInfo {
+        endCursor
+        hasNextPage
+      }
+      nodes {
+        id
+      }
+    }
+  }
+}

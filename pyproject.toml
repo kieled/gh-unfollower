@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pygit"
+version = "0.1.0"
+description = ""
+authors = ["Kiel Ed <kieledssh@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-graphql-client = "^0.4.3"
+pydantic = {extras = ["dotenv"], version = "^1.10.9"}
+aiofiles = "^23.1.0"
+types-aiofiles = "^23.1.0.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

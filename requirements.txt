@@ -1,0 +1,4 @@
+aiofiles==23.1.0
+pydantic[dotenv]==1.10.9
+python-graphql-client==0.4.3
+types-aiofiles==23.1.0.4
