@@ -12,4 +12,4 @@ git clone https://github.com/kieled/gh-unfollower.git
 ```
 
 2. Rename `.env.example` to `.env` and fill github token
-3. Run script `with-poetry.sh` or `without-poetry.sh` whether you have installed `poetry`
+3. Run script `with-poetry.sh` or `without-poetry.sh` depending on whether you have installed `poetry`
